@@ -42,11 +42,13 @@ function NavBar() {
     <div className='container-fluid mx-auto'>
       <div className='flex justify-between items-center pl-10 pr-10'>
         <div>
+          <a href='/'>
           <img
             className='h-16 sm:h-24'
             src='https://getlogo.net/wp-content/uploads/2020/04/bookmyshow-logo-vector.png'
             alt='logo'
           />
+          </a>
         </div>
         <div className='hidden sm:block sm:flex-grow mx-3'>
           <input
@@ -107,7 +109,6 @@ function NavBar() {
 
 
       </div>
-
 
             </div>
           )}

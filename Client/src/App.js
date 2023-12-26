@@ -3,7 +3,7 @@ import Home from './Components/Home';
 import Login from './Components/Login';
 import {BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import Register from './Components/Register';
-import Sidebar from './Components/Sidebar';
+import Background from './Components/Background';
 
 
 
@@ -19,7 +19,7 @@ function App() {
           </Route>
           <Route exact path="/register" element={ <Register/>}>
           </Route>
-          <Route exact path="/sidebar" element={ <Sidebar/>}>
+          <Route exact path="/background" element={ <Background/>}>
           </Route>
           </Routes>
           </Router>
